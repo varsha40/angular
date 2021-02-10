@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Body</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of info" >
+        <td>{{d.id}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.email}}</td>
+        <td>{{d.body}}</td>
+      </tr>

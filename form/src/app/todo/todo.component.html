@@ -1,0 +1,15 @@
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">title</th>
+        <th scope="col">completed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of todo" >
+        <td>{{d.id}}</td>
+        <td>{{d.title}}</td>
+        <td>{{d.completed}}</td>
+      </tr>
